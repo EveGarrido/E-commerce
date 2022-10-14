@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" /> 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./normalize.css">
+  <title>Lyn Toys Store</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div>
+        <a href="">Home</a>
+        <a href="#product">Products</a>
+        <a href="#social">Contact</a>
+      </div>
+      <div>
+        <span class="material-symbols-outlined btn-cart">shopping_cart</span>
+      </div>
+    </nav>
+    <section class="container-coming-soon">
+      <div class="box-coming-soon">
+        <p class="coming">Coming Soon</p>
+        <p class="coming">Creatures</p>
+      </div>
+      <div class="box-coming-soon">
+        <img class="image-coming-soon"src="./images/Rancor.jpg" alt="Rancor">
+      </div>
+    </section>
+  </header>
+<!--Coming soon-->
+  <main>
+    <div class="cart-pop">
+      <h1>Carro de Compras</h1>
+      <section class="cart">
+        <!--productos que se van agregando al carro de compras-->
+      </section>
+      <section class="items-total">
+        <!--detalle de cantidad y precio-->
+        <div>
+          <p>0 Items</p>
+          </div>
+          <div>
+          <p>TOTAL US$ 0</p>
+          </div>
+      </section>
+      <button class="pay">Pay</button>
+      <button class="close-cart">Close</button>
+    </div>
+    <section id="product" class="btns-products">
+      <button class="show-all-products btn-prod">All Products</button>
+      <button class="show-dark-side btn-prod">Dark Side</button>
+      <button class="show-jedis btn-prod">Jedis</button>
+      <button class="show-clones btn-prod">Clones</button>
+    </section>
+    <section class="container-products">
+      <div class ="box-product" id="dark">
+        <article class="box">
+          <div class="product">
+            <img class="img-product" src="./images/Dark Side/1080(4).png" alt="Reva">
+          </div>
+          <div class="product">
+            <p class="stock detail-product">25</p>
+            <p class="price detail-product">20</p>
+            <h2>Reva</h2>
+            <button class="plus-reva add">+</button>
+          </div>     
+        </article>        
+        <article class="box">
+          <div class="product">
+            <img class="img-product" src="./images/Dark Side/1080(5).png" alt="Darth Vader">
+          </div>
+          <div class="product">
+            <p class="stock detail-product">25</p>
+            <p class="price detail-product">20</p>
+            <h2>Darth Vader</h2>
+            <button class="plus-vader add">+</button>
+          </div>     
+        </article>
+        <article class="box">
+          <div class="product">
+            <img class="img-product" src="./images/Dark Side/1080(3).png" alt="Fifth brother">      
+          </div>
+          <div class="product">
+            <p class="stock detail-product">25</p>
+            <p class="price detail-product">25</p>
+            <h2>Fifth Brother</h2>
+            <button class="plus-fifth-brother add">+</button>
+          </div>
+        </article>  
+      </div>
+      <div class="box-product" id="jedi">
+        <article class="box">
+         <div class="product">
+            <img class="img-product" src="./images/Jedi/1080.png" alt="Obi-Wan Kenobi">
+          </div>
+          <div class="product">
+            <p class="stock detail-product">25</p>
+            <p class="price detail-product">20</p>
+            <h2>Obi Wan Kenobi</h2>
+            <button class="plus-kenobi add">+</button>
+          </div>       
+        </article>
+        <article class="box">
+          <div class="product">
+            <img class="img-product" src="./images/Jedi/1080(6).png" alt="Anakin">
+          </div>
+          <div class="product">
+            <p class="stock detail-product">25</p>
+            <p class="price detail-product">20</p>
+            <h2>Anakin Skywalker</h2>
+            <button class="plus-anakin add">+</button>
+          </div>       
+        </article>
+        <article class="box">
+          <div class="product">
+            <img class="img-product" src="./images/Jedi/1080(8).png" alt="Ahsoka">
+          </div>
+          <div class="product">
+            <p class="stock detail-product">25</p>
+            <p class="price detail-product">20</p>
+            <h2>Ahsoka</h2>
+            <button class="plus-ahsoka add">+</button>
+          </div>       
+        </article>
+      </div> 
+      <div class="box-product" id="clone">
+        <article class="box">
+          <div class="product">
+            <img class="img-product" src="./images/Clones/1080(13).png" alt="Commender Wolffe">
+          </div>
+          <div class="product">
+            <p class="stock detail-product">25</p>
+            <p class="price detail-product">20</p>
+            <h2>Commender Wolffe</h2>
+            <button class="plus-wolffe add">+</button>
+          </div>     
+        </article>
+        <article class="box">
+          <div class="product">
+            <img class="img-product" src="./images/Clones/1080(16).png" alt="Shock Trooper">
+          </div>
+         <div class="product">
+            <p class="stock detail-product">25</p>
+            <p class="price detail-product">20</p>
+            <h2>Shock Trooper</h2>
+            <button class="plus-shock-trooper add">+</button>
+          </div>     
+        </article>
+        <article class="box">
+          <div class="product">
+            <img class="img-product" src="./images/Clones/1080(17).png" alt="Jet Trooper">
+          </div>
+          <div class="product">
+            <p class="stock detail-product">25</p>
+            <p class="price detail-product">20</p>
+            <h2>Jet Trooper</h2>
+            <button class="plus-jet-trooper add">+</button>
+          </div>     
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div id="social" class="container-footer">
+      <section class="boxs-footer">
+        <h4>About US</h4>
+        <p>Support Center</p>
+        <p>Costumer Support</p>
+        <p>Copy Right</p>
+        <p>About Us</p>
+      </section>
+      <section>
+        <h4>Social</h4>
+        <a href="https://www.instagram.com/" target="_blank">
+          <img class="img-social" src="./images/instagram.svg" alt="instagram"/></a>
+        <a href="https://twitter.com/" target="_blank">
+          <img class="img-social" src="./images/twitter.svg" alt="twitter"/>
+        </a>
+      </section>
+      <section>
+        <h4>Our Location</h4>
+        <a href="https://www.google.cl/maps/place/Mallplaza+Vespucio/@-33.535427,-70.609575,13.75z/data=!4m5!3m4!1s0x9662d06757799979:0x913dd02e5daeb4b7!8m2!3d-33.5190272!4d-70.6002981" target="_blank"> 
+          <span class="material-symbols-outlined img-location">location_on</span>
+        </a>
+      </section>
+    </div>
+    <div class="container-copyrigth">
+      <span class="material-symbols-outlined copyrigth">copyright</span>
+      <p class="reserved">LynToys. All rigths reserved</p>
+    </div>
+  </footer>
+</body>
+<script src="./app.js"></script>
+</html>
